@@ -80,8 +80,8 @@ a:link, a:visited {
     background-color: #FF9900;
 }
 
-/* top section */
-.top {
+/* top main section with video */
+.content__main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,7 +152,7 @@ a:link, a:visited {
     height: 53px;
     display: flex;
     align-items: center;
-    }
+}
 
 .btn--playbutton img {
     width: 20px;
@@ -168,7 +168,7 @@ a:link, a:visited {
 }
 
 /* bottom section */
-.bottom {
+.content__tools {
     display: flex;
     justify-content: center;
     align-items: center;
