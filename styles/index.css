@@ -86,7 +86,6 @@ a:link, a:visited {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    column-gap: 50px;
 }
 
 .info {
