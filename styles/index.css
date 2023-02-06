@@ -80,15 +80,15 @@ a:link, a:visited {
     background-color: #FF9900;
 }
 
-/* top main section with video */
-.content__main {
+/* main content sections - container */
+.content {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
 
-/* info area on left */ 
+/* info text on left */ 
 .info {
     width: 518px;
     height: 331px;
@@ -116,7 +116,7 @@ a:link, a:visited {
     margin-bottom: 45px;
 }
 
-/* container for get started and watch video buttons */
+/* container for buttons */
 .buttons {
     display: flex;
     column-gap: 30px;
@@ -137,7 +137,7 @@ a:link, a:visited {
 }
 
 /* watch video button */
-.btn--playbutton {
+.btn--play {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -154,7 +154,7 @@ a:link, a:visited {
     align-items: center;
 }
 
-.btn--playbutton img {
+.btn--play img {
     width: 20px;
     height: auto;
     margin-right: 8px;
@@ -168,13 +168,6 @@ a:link, a:visited {
 }
 
 /* bottom section */
-.content__tools {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 110px;
-    width: 100%;
-}
 
 .subtitle {
     font-family: 'Poppins';
@@ -184,9 +177,21 @@ a:link, a:visited {
     line-height: 54px;
     text-align: center;
     color: #2F281E;
-
+    margin-top: 110px;
     width: 540px;
+
 }
+
+
+.content__tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+    width: 100%;
+}
+
+
 
 /* four tools sections */
 .tools {
