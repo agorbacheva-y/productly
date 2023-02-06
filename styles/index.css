@@ -5,12 +5,16 @@
     outline: 0;
 }
 
+/* container for logo, nav bar, login buttons */
 header {
     display: flex;
     margin-top: 50px;
     justify-content: space-around;
+    width: 100%;
+    height: auto;
 }
 
+/* nav bar */
 .nav {
     font-family: 'Poppins';
     font-style: normal;
@@ -18,20 +22,24 @@ header {
     font-size: 14px;
     line-height: 28px;
     /* identical to box height, or 200% */
-
     color: #2F281E;
 }
 
 .nav-bar {
     list-style-type: none;
     display: flex;
+    width: 350px;
+    justify-content: space-evenly;
 }
 
-a:link {
+a:link, a:visited {
     text-decoration: none;
+    color: #2F281E;
 }
 
+/* login buttons */
 .login {
+    display: flex;
     gap: 14px;
 }
 
