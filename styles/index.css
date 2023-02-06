@@ -4,3 +4,26 @@
     border: 0;
     outline: 0;
 }
+
+header {
+    display: flex;
+}
+
+.nav {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 200% */
+
+
+color: #2F281E;
+}
+
+.nav-bar {
+    list-style-type: none;
+    display: flex;
+
+
+}
