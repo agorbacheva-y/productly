@@ -88,6 +88,7 @@ a:link, a:visited {
     margin-top: 50px;
 }
 
+/* info area on left */ 
 .info {
     width: 518px;
     height: 331px;
@@ -115,6 +116,13 @@ a:link, a:visited {
     margin-bottom: 45px;
 }
 
+/* container for get started and watch video buttons */
+.buttons {
+    display: flex;
+    column-gap: 30px;
+}
+
+/* get started button */
 .btn--start {
     font-family: 'Poppins';
     font-style: normal;
@@ -128,7 +136,8 @@ a:link, a:visited {
     height: 53px;
 }
 
-.btn--watch {
+/* watch video button */
+.btn--playbutton {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -137,13 +146,22 @@ a:link, a:visited {
     /* identical to box height */
 
     text-decoration-line: underline;
-
     color: #FF9900;
     background-color: #FFFFFF;
     width: 175px;
     height: 53px;
+    display: flex;
+    align-items: center;
     }
 
+.btn--playbutton img {
+    width: 20px;
+    height: auto;
+    margin-right: 8px;
+}
+
+
+/* image on right */
 .image {
     width: 605px;
     height: 496px;
