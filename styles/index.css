@@ -187,3 +187,28 @@ a:link, a:visited {
 
     width: 540px;
 }
+
+/* four tools sections */
+.tools {
+    justify-content: space-evenly;
+}
+
+.tools h6 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #2F281E;
+}
+
+.tools p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #544837;
+    }
