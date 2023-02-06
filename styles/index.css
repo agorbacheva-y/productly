@@ -7,6 +7,8 @@
 
 header {
     display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
 }
 
 .nav {
@@ -17,13 +19,49 @@ header {
     line-height: 28px;
     /* identical to box height, or 200% */
 
-
-color: #2F281E;
+    color: #2F281E;
 }
 
 .nav-bar {
     list-style-type: none;
     display: flex;
+}
 
+a:link {
+    text-decoration: none;
+}
 
+.login {
+    gap: 14px;
+}
+
+.btn {
+    height: 46px;
+    width: 110px;
+    border-radius: 5px;
+}
+
+.btn--signin {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    color: #173A56;
+    background-color: #FFFFFF;
+    border: 1px solid #BCD0E5;
+}
+
+.btn--signup {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+    background-color: #FF9900;
 }
