@@ -294,3 +294,38 @@ a:link, a:visited {
     height: 493px;
     margin-right: 82px;
 }
+
+/* footer */
+.footer li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    /* or 219% */
+    color: #544837;
+
+    list-style-type: none;
+}
+
+.btn--empty {
+    border: 1px solid #BCD0E5;
+    background-color: #FFFFFF;
+    width: 325px;
+    height: 48px
+}
+
+.btn--footer {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #FFFFFF;
+    background-color: #FF9900;
+    width: 131px;
+    height: 39px;
+}
