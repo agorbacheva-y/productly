@@ -82,7 +82,7 @@ a:link, a:visited {
 }
 
 /* content sections - container (class is used thruout page) */
-.content {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,7 +183,7 @@ a:link, a:visited {
 }
 
 /* tools sections */
-.feature {
+.feature__tools {
     display: flex;
     width: 100%;
     justify-content: center;
