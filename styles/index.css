@@ -257,9 +257,14 @@ a:link, a:visited {
 }
 
 /* product managers section */
+.product {
+    margin-top: 100px;
+}
+
 .product__image {
     width: 535px;
     height: 521px;
+    margin-right: 100px;
 }
 
 .product__info {
@@ -267,6 +272,8 @@ a:link, a:visited {
     height: 427px;
 }
 
-.product__list {
-    list-style-image: url("../images/checkmark.png");
+.product__list li {
+    list-style-type: none;
+    background: url("../images/checkmark.png") no-repeat left center;
+    padding: 15px 30px 15px 65px;
 }
