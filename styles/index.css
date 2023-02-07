@@ -300,10 +300,9 @@ a:link, a:visited {
     border-top: 1px solid #BCD0E5;
     width: 1109px;
     height: 308px;
-    margin-top: 146px;
+    margin: 146px 0 83px 160px;
     padding-top: 102px;
-    margin-left: 160px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .footer__logo {
@@ -320,6 +319,14 @@ a:link, a:visited {
     color: #544837;
 
     list-style-type: none;
+}
+
+.footer__button {
+    flex-direction: column;
+    width: 325px;
+    /* transform: translateY(10px); */
+    /* buttons would not position at flex-end so used transform
+    instead */
 }
 
 .btn--empty {
@@ -342,4 +349,5 @@ a:link, a:visited {
     background-color: #FF9900;
     width: 131px;
     height: 39px;
+    margin-top: 21px;
 }
