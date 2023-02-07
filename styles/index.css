@@ -39,7 +39,8 @@ nav {
     justify-content: space-evenly;
 }
 
-a:link, a:visited {
+.nav a:link,
+.nav a:visited {
     text-decoration: none;
     color: #2F281E;
 }
@@ -152,6 +153,13 @@ a:link, a:visited {
     height: 53px;
     display: flex;
     align-items: center;
+}
+
+.header__button a:link,
+.header__button a:visited {
+    text-decoration-line: underline;
+    color: #FF9900;
+    background-color: #FFFFFF;
 }
 
 .btn--play img {
