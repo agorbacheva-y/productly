@@ -208,7 +208,7 @@ a:link, a:visited {
     color: #2F281E;
 }
 
-.feature, .validation__info p {
+.feature, .validation__info, .product__info p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -254,4 +254,19 @@ a:link, a:visited {
     width: 520px;
     height: 574px;
     margin-left: 104px;
+}
+
+/* product managers section */
+.product__image {
+    width: 535px;
+    height: 521px;
+}
+
+.product__info {
+    width: 486px;
+    height: 427px;
+}
+
+.product__list {
+    list-style-type: none;
 }
