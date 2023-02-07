@@ -359,3 +359,25 @@ nav {
     height: 39px;
     margin-top: 21px;
 }
+
+/* button pseudo classes */
+.btn--signup:hover,
+.btn--start:hover,
+.btn--footer:hover {
+    background-color: #FFFFFF;
+    color: #FF9900;
+    border: 2px solid #FF9900;
+    transition: 0.15s;
+}
+
+.btn--signin:hover,
+.btn--play:hover,
+.btn--empty:hover {
+    color: #FF9900;
+    border: 2px solid #FF9900;
+    transition: 0.15s;
+}
+
+.btn:active {
+    transform: scale(1.1);
+}
