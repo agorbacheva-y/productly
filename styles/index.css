@@ -80,7 +80,7 @@ a:link, a:visited {
     background-color: #FF9900;
 }
 
-/* main content sections - container */
+/* content sections - container (class is used thruout page) */
 .content {
     display: flex;
     justify-content: center;
@@ -89,12 +89,12 @@ a:link, a:visited {
 }
 
 /* info text on left */ 
-.info {
+.header__info {
     width: 518px;
     height: 331px;
 }
 
-.info__title {
+.header__title {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -104,7 +104,7 @@ a:link, a:visited {
     color: #2F281E;
 }
 
-.info__content {
+.header__content {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -117,7 +117,7 @@ a:link, a:visited {
 }
 
 /* container for buttons */
-.buttons {
+.header__button {
     display: flex;
     column-gap: 30px;
 }
@@ -160,16 +160,15 @@ a:link, a:visited {
     margin-right: 8px;
 }
 
-
 /* image on right */
-.image {
+.header__image {
     width: 605px;
     height: 496px;
 }
 
 
-/* subtitle section */
-.subtitle {
+/* feature section */
+.feature__title {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -183,19 +182,19 @@ a:link, a:visited {
 }
 
 /* tools sections */
-.tools {
+.feature {
     display: flex;
     width: 100%;
     justify-content: center;
     column-gap: 45px;
 }
 
-.tools__box {
+.feature__box {
     width: 240px;
     height: 178px;
 }
 
-.tools h6 {
+.feature h6 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -205,7 +204,7 @@ a:link, a:visited {
     color: #2F281E;
 }
 
-.tools p {
+.feature p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -215,7 +214,7 @@ a:link, a:visited {
     color: #544837;
     }
 
-.tools img {
+.feature img {
     width: 50px;
     height: 50px;
 }
