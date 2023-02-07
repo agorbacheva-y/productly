@@ -176,9 +176,10 @@ a:link, a:visited {
     line-height: 54px;
     text-align: center;
     color: #2F281E;
-    
+
     margin-top: 110px;
     width: 540px;
+    margin-bottom: 54px;
 }
 
 /* tools sections */
@@ -187,6 +188,7 @@ a:link, a:visited {
     width: 100%;
     justify-content: center;
     column-gap: 45px;
+    margin-bottom: 34px;
 }
 
 .feature__box {
