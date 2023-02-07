@@ -249,3 +249,9 @@ a:link, a:visited {
 .validation__info h5 {
     margin-bottom: 22px;
 }
+
+.validation__image {
+    width: 520px;
+    height: 574px;
+    margin-left: 104px;
+}
