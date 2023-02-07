@@ -6,7 +6,7 @@
 }
 
 /* container for logo, nav bar, login buttons */
-header {
+nav {
     display: flex;
     margin-top: 50px;
     justify-content: space-around;
