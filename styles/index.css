@@ -35,8 +35,9 @@ nav {
 .nav__content {
     list-style-type: none;
     display: flex;
-    width: 350px;
-    justify-content: space-evenly;
+    max-width: 350px;
+    width: 100%;
+    column-gap: 30px;
 }
 
 .nav a:link,
@@ -91,8 +92,9 @@ nav {
 
 /* header info text */ 
 .header__info {
-    width: 518px;
-    height: 331px;
+    max-width: 518px;
+    min-height: 331px;
+    width: 100%;
 }
 
 .header__title {
@@ -170,15 +172,17 @@ nav {
 
 /* header image */
 .header__image {
-    width: 605px;
-    height: 496px;
+    max-width: 605px;
+    min-height: 496px;
+    width: 100%;
 }
 
 
 /* feature section */
 .feature__title {
     margin-top: 110px;
-    width: 540px;
+    max-width: 540px;
+    width: 100%;
     margin-bottom: 54px;
     text-align: center;
 }
@@ -202,8 +206,9 @@ nav {
 }
 
 .feature__box {
-    width: 240px;
-    height: 178px;
+    max-width: 240px;
+    min-height: 178px;
+    width: 100%;
 }
 
 .feature h6 {
@@ -262,27 +267,31 @@ nav {
 
 /* effortless validation section */
 .validation__info {
-    width: 486px;
-    height: 531px;
+    max-width: 486px;
+    min-height: 531px;
+    width: 100%;
 }
 
 .validation__image {
-    width: 520px;
-    height: 574px;
+    max-width: 520px;
+    min-height: 574px;
+    width: 100%;
     margin-left: 104px;
 }
 
 /* product managers section */
 
 .product__image {
-    width: 535px;
-    height: 521px;
+    max-width: 535px;
+    min-height: 521px;
+    width: 100%;
     margin-right: 100px;
 }
 
 .product__info {
-    width: 486px;
-    height: 427px;
+    max-width: 486px;
+    min-height: 427px;
+    width: 100%;
 }
 
 .product__list li {
@@ -293,21 +302,25 @@ nav {
 
 /* marketers section */
 .marketers__image {
-    width: 542px;
-    height: 609px;
+    max-width: 542px;
+    min-height: 609px;
+    width: 100%;
 }
 
 .marketers__info {
-    width: 486px;
-    height: 493px;
+    max-width: 486px;
+    min-height: 493px;
+    width: 100%;
     margin-right: 82px;
 }
 
 /* footer */
 .footer {
     border-top: 1px solid #BCD0E5;
-    width: 1109px;
-    height: 308px;
+    max-width: 1109px;
+    min-height: 308px;
+    width: 100%;
+
     margin: 146px 0 83px 160px;
     padding-top: 102px;
     justify-content: space-between;
@@ -331,7 +344,8 @@ nav {
 
 .footer__button {
     flex-direction: column;
-    width: 325px;
+    max-width: 325px;
+    width: 100%;
     /* transform: translateY(10px); */
     /* buttons would not position at flex-end so used transform
     instead */
@@ -340,7 +354,8 @@ nav {
 .btn--empty {
     border: 1px solid #BCD0E5;
     background-color: #FFFFFF;
-    width: 325px;
+    max-width: 325px;
+    width: 100%;
     height: 48px
 }
 
