@@ -8,10 +8,9 @@
 /* container for logo, nav bar, login buttons */
 nav {
     display: flex;
-    /* margin-top: 50px; */
     justify-content: space-around;
     align-items: center;
-    max-width: 1400px;
+    max-width: 100vw;
     min-height: 128px;
     width: 100%;
 }
@@ -328,14 +327,21 @@ a:visited {
 }
 
 /* footer */
-.footer {
-    border-top: 1px solid #BCD0E5;
-    max-width: 1109px;
-    min-height: 308px;
+footer {
+    max-width: 100vw;
+    min-height: 400px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 
-    /* margin: 146px 0 83px 160px; */
-    padding-top: 102px;
+.footer {
+    max-width: 1109px;
+    min-height: 300px;
+    width: 100%;
+    border-top: 1px solid #BCD0E5;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -359,9 +365,6 @@ a:visited {
     flex-direction: column;
     max-width: 325px;
     width: 100%;
-    /* transform: translateY(10px); */
-    /* buttons would not position at flex-end so used transform
-    instead */
 }
 
 .btn--empty {
@@ -383,7 +386,8 @@ a:visited {
 
     color: #FFFFFF;
     background-color: #FF9900;
-    width: 131px;
+    max-width: 131px;
+    width: 100%;
     height: 39px;
     margin-top: 21px;
 }
