@@ -40,8 +40,8 @@ nav {
     column-gap: 30px;
 }
 
-.nav a:link,
-.nav a:visited {
+a:link,
+a:visited {
     text-decoration: none;
     color: #2F281E;
 }
