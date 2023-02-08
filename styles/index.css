@@ -326,6 +326,14 @@ a:visited {
     width: 100%;
 }
 
+hr {
+    border-top: 1px solid #BCD0E5;
+    height: 150px;
+    width: 80%;
+    margin: auto
+}
+
+
 /* footer */
 footer {
     max-width: 100vw;
@@ -340,7 +348,7 @@ footer {
     max-width: 1109px;
     min-height: 300px;
     width: 100%;
-    border-top: 1px solid #BCD0E5;
+    /* border-top: 1px solid #BCD0E5; */
     align-items: center;
     justify-content: space-between;
 }
