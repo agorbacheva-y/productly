@@ -150,13 +150,14 @@ a:visited {
     line-height: 24px;
     /* identical to box height */
 
-    text-decoration-line: underline;
     color: #FF9900;
     background-color: #FFFFFF;
-    width: 175px;
+    width: 190px;
     height: 53px;
     display: flex;
     align-items: center;
+    justify-items: flex-start;
+    column-gap: 35px;
 }
 
 .header__button a:link,
