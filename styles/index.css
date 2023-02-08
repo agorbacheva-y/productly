@@ -123,6 +123,7 @@ nav {
 .header__button {
     display: flex;
     column-gap: 30px;
+    align-items: center;
 }
 
 /* get started and sign up now buttons */
@@ -164,10 +165,10 @@ nav {
     background-color: #FFFFFF;
 }
 
-.btn--play img {
-    width: 20px;
-    height: auto;
-    margin-right: 8px;
+.fa-play {
+    color: #FF9900;
+    transform: scale(1.5);
+    transform: translateX(23px);
 }
 
 /* header image */
